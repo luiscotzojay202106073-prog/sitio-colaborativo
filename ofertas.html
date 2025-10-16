@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertas en Componentes de Robótica</title>
+    <!-- Enlazamos el CSS de Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .producto {
+            margin-bottom: 30px;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .card-body {
+            text-align: center;
+        }
+        .precio {
+            font-size: 1.2em;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .descuento {
+            text-decoration: line-through;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">¡Promociones en Componentes y Robótica!</h1>
+        <h2>Creado por Miriam Mejía 202105950</h2>
+        <div class="row">
+            <!-- Producto 1: Arduino UNO -->
+            <div class="col-md-4 producto">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/250px-Arduino_Uno_-_R3.jpg" class="card-img-top" alt="Arduino UNO">
+                    <div class="card-body">
+                        <h5 class="card-title">Arduino UNO</h5>
+                        <p class="card-text">Placa de desarrollo microcontrolada ideal para proyectos de robótica y electrónica.</p>
+                        <p class="precio">Q.75 <span class="descuento">10%</span></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2: Motor DC -->
+            <div class="col-md-4 producto">
+                <div class="card">
+                    <img src="https://ce8dc832c.cloudimg.io/v7/_cdn_/C1/D8/30/00/0/232732_1.jpg?width=640&height=480&wat=1&wat_url=_tme-wrk_%2Ftme_new.png&wat_scale=100p&ci_sign=39c1c30423656b97d4f1bac574bc1ef7824acf1a" class="card-img-top" alt="Motor DC">
+                    <div class="card-body">
+                        <h5 class="card-title">Motor DC</h5>
+                        <p class="card-text">Motor de corriente continua para proyectos de robótica, con gran torque y eficiencia.</p>
+                        <p class="precio">Q150.00 <span class="descuento">15%</span></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3: Sensor Ultrasonido -->
+            <div class="col-md-4 producto">
+                <div class="card">
+                    <img src="https://nanoparuro.com/web/image/product.template/305/image_1024?unique=e5e84b0" class="card-img-top" alt="Sensor Ultrasonido">
+                    <div class="card-body">
+                        <h5 class="card-title">Sensor Ultrasonido</h5>
+                        <p class="card-text">Sensor de distancia ultrasonido HC-SR04, ideal para evitar obstáculos en robots móviles.</p>
+                        <p class="precio">Q185.00 <span class="descuento">5%</span></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 4: Servomotor -->
+            <div class="col-md-4 producto">
+                <div class="card">
+                    <img src="https://www.aranacorp.com/wp-content/uploads/towerpro-servo-sg90.jpg" class="card-img-top" alt="Servomotor">
+                    <div class="card-body">
+                        <h5 class="card-title">Servomotor</h5>
+                        <p class="card-text">Servomotor de precisión para aplicaciones en robótica, con excelente control de ángulos.</p>
+                        <p class="precio">Q.45.00 <span class="descuento">5%</span></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 5: Placa de expansión para Arduino -->
+            <div class="col-md-4 producto">
+                <div class="card">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7XEl_-W_B5ZrCiwbX95Kw8EnbbMt0lVVwqLCXrt8prK5h4q0gBqo0dMpsl6Eyz1tAondOEW5KPTm6Z3dkku-H_TuzS87HV3tMBRMdBQESaMg7rWbgGwDclSBGFUMsZxseX23OdBbEcR-7/s1600/images.jpg" class="card-img-top" alt="Placa de expansión para Arduino">
+                    <div class="card-body">
+                        <h5 class="card-title">Placa de Expansión para Arduino</h5>
+                        <p class="card-text">Placa que permite añadir más componentes y sensores a tus proyectos con Arduino.</p>
+                        <p class="precio">Q.60.00 <span class="descuento">10%</span></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 6: Módulo Bluetooth HC-05 -->
+            <div class="col-md-4 producto">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0083/1858/2874/files/5F-1_grande.png?v=1590987719" class="card-img-top" alt="Módulo Bluetooth HC-05">
+                    <div class="card-body">
+                        <h5 class="card-title">Módulo Bluetooth HC-05</h5>
+                        <p class="card-text">Módulo Bluetooth para comunicación inalámbrica en proyectos de robótica y domótica.</p>
+                        <p class="precio">Q.85.00 <span class="descuento">10%</span></p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
